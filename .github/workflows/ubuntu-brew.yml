@@ -1,0 +1,19 @@
+
+name: nixOS Brew Building HEAD
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  install_dependencies_and_build:
+    name: Build and test formula
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run everything
+        run: |
+          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+          brew update
+          brew install --only-dependencies --HEAD timg
+          brew install --build-from-source --HEAD timg
+          brew test timg

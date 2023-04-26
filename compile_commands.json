@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/timg.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/timg.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/timg.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/buffered-write-sequencer.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/buffered-write-sequencer.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/buffered-write-sequencer.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/framebuffer.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/framebuffer.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/framebuffer.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/image-source.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/image-source.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/image-source.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/iterm2-canvas.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/iterm2-canvas.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/iterm2-canvas.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/kitty-canvas.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/kitty-canvas.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/kitty-canvas.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/renderer.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/renderer.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/renderer.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/terminal-canvas.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/terminal-canvas.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/terminal-canvas.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/termutils.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/termutils.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/termutils.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/timg-png.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/timg-png.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/timg-png.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/unicode-block-canvas.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/unicode-block-canvas.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/unicode-block-canvas.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/term-query.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/term-query.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/term-query.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/image-display.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/image-display.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/image-display.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/jpeg-source.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/jpeg-source.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/jpeg-source.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/openslide-source.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/openslide-source.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/openslide-source.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/video-display.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/video-display.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/video-display.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/stb-image-source.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/stb-image-source.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/stb-image-source.cc"
+},
+{
+  "directory": "/mnt/chromeos/MyFiles/timg-main/src",
+  "command": "/usr/bin/c++ -DHAVE_AVDEVICE -DWITH_TIMG_GRPAPHICSMAGICK -DWITH_TIMG_JPEG -DWITH_TIMG_OPENSLIDE_SUPPORT -DWITH_TIMG_QOI -DWITH_TIMG_STB -DWITH_TIMG_TERMINAL_QUERY -DWITH_TIMG_VIDEO -I/mnt/chromeos/MyFiles/timg-main/src -I/mnt/chromeos/MyFiles/timg-main/third_party -I/mnt/chromeos/MyFiles/timg-main/third_party/qoi -isystem /usr/include/GraphicsMagick -isystem /usr/include/openslide -W -Wall -Wextra -Wno-unused-parameter -O3  -o CMakeFiles/timg.dir/qoi-image-source.cc.o -c /mnt/chromeos/MyFiles/timg-main/src/qoi-image-source.cc",
+  "file": "/mnt/chromeos/MyFiles/timg-main/src/qoi-image-source.cc"
+}
+]

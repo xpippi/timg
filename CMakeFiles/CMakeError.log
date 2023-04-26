@@ -1,0 +1,94 @@
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5ffb3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5ffb3.dir/build.make CMakeFiles/cmTC_5ffb3.dir/build
+gmake[1]: Entering directory '/mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5ffb3.dir/src.cxx.o
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_5ffb3.dir/src.cxx.o -c /mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5ffb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ffb3.dir/link.txt --verbose=1
+/usr/bin/c++  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_5ffb3.dir/src.cxx.o -o cmTC_5ffb3 
+/usr/bin/ld: CMakeFiles/cmTC_5ffb3.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x2f): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x3b): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x47): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x58): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_5ffb3.dir/build.make:106: cmTC_5ffb3] Error 1
+gmake[1]: Leaving directory '/mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_5ffb3/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_742a9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_742a9.dir/build.make CMakeFiles/cmTC_742a9.dir/build
+gmake[1]: Entering directory '/mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_742a9.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_742a9.dir/CheckFunctionExists.cxx.o -c /mnt/chromeos/MyFiles/timg-main/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_742a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_742a9.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_742a9.dir/CheckFunctionExists.cxx.o -o cmTC_742a9  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_742a9.dir/build.make:106: cmTC_742a9] Error 1
+gmake[1]: Leaving directory '/mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_742a9/fast] Error 2
+
+
+
+Determining if the include file stb/stb_image.h exists failed with the following output:
+Change Dir: /mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bac07/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bac07.dir/build.make CMakeFiles/cmTC_bac07.dir/build
+gmake[1]: Entering directory '/mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bac07.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -W -Wall -Wextra -Wno-unused-parameter -O3   -o CMakeFiles/cmTC_bac07.dir/CheckIncludeFile.cxx.o -c /mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: stb/stb_image.h: No such file or directory
+    1 | #include <stb/stb_image.h>
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_bac07.dir/build.make:85: CMakeFiles/cmTC_bac07.dir/CheckIncludeFile.cxx.o] Error 1
+gmake[1]: Leaving directory '/mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_bac07/fast] Error 2
+
+
+
+Determining if the include file qoi.h exists failed with the following output:
+Change Dir: /mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f1ad0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f1ad0.dir/build.make CMakeFiles/cmTC_f1ad0.dir/build
+gmake[1]: Entering directory '/mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f1ad0.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -W -Wall -Wextra -Wno-unused-parameter -O3   -o CMakeFiles/cmTC_f1ad0.dir/CheckIncludeFile.cxx.o -c /mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: qoi.h: No such file or directory
+    1 | #include <qoi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f1ad0.dir/build.make:85: CMakeFiles/cmTC_f1ad0.dir/CheckIncludeFile.cxx.o] Error 1
+gmake[1]: Leaving directory '/mnt/chromeos/MyFiles/timg-main/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_f1ad0/fast] Error 2
+
+
+
